@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Line } from 'react-chartjs-2';
 import numeral from 'numeral'
 import './lineGraph.css'
@@ -102,8 +102,8 @@ const LineGraph = ({ caseType }) => {
     );
 };
 
-LineGraph.propTypes = {
+// LineGraph.propTypes = {
 
-};
+// };
 
 export default LineGraph;

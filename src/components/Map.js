@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Map as LeafletMap, TileLayer } from 'react-leaflet'
 import './map.css'
 import { showDataOnMap } from '../utils/caseCircle';
@@ -19,8 +19,8 @@ function Map({ countries, caseType, center, zoom }) {
     );
 }
 
-Map.propTypes = {
+// Map.propTypes = {
 
-};
+// };
 
 export default Map;
